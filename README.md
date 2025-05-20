@@ -1,12 +1,46 @@
-# React + Vite
+# 🗂️ File Explorer App
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This React-based File Explorer simulates a core part of a developer interface — a File/Folder Tree — similar to what you find in IDEs like VS Code.
 
-Currently, two official plugins are available:
+It includes interactive features like expanding/collapsing folders, drag-and-drop support, renaming, adding, and deleting nodes. The app persists state across page refreshes using `localStorage`.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 🚀 Features
 
-## Expanding the ESLint configuration
+- 📁 Tree View Rendering from JSON
+- 📂 Expand/Collapse folders
+- ✂️ Drag and Drop (files & folders)
+- 📝 Rename, Add, Delete nodes
+- 💾 Persistent state via `localStorage` or JSON export/import
+- 🎨 Styled with Tailwind CSS
+- 🧠 Uses modern React features
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## 🔧 Tech Stack
+
+- **React (Vite + Functional Components)**
+- **Tailwind CSS** for styling
+- **React DnD** or **Dnd Kit** for drag-and-drop
+- **Optional**: Zustand or Context API for state management
+- **Icon Libraries** like `react-icons` or `lucide-react`
+
+## 🛠️ Setup Instructions
+-- Clone the repository
+git clone https://github.com/your-username/file-explorer-app.git
+cd file-explorer-app
+
+--Install dependencies
+npm install
+# or
+yarn
+
+--Start the development server
+npm run dev
+# or
+yarn dev
+
+--Open in your browser
+http://localhost:5173
+
+✅ You’re all set! Explore the file explorer, drag & drop nodes, and manage your tree.
+📄 License
+This project is open-source under the MIT License.
+
